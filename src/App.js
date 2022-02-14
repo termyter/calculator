@@ -65,31 +65,4 @@ class App extends React.Component{
         );
     }
 }
-// function App() {
-//     const buttons = [{val:'1'},{val: '2'},{val:'3'},{val:'4'},{val:'5'},{val:'6'},{val:'7'},{val:'8'},{val:'9'},{val:'0'},
-//         {val:'+'},{val:'-'},{val:'/'},{val:'*'},{val:'C'},{val:'='},]
-//     let str = ''
-//
-//     function tapeNumber(str, val) {
-//         str =+ val;
-//         return str
-//     }
-//
-// onClick={() => {tapeNumber(str,item.val)}}>{item.val}</button>)}
-//     return (
-//         <div className="App">
-//             <div className="container">
-//                 <div className={"output"}>
-//                     <input ref={refOut} type="text" defaultValue={str}/>
-//                 </div>
-//                 <div className={"buttons"}>
-//                     {buttons.map((item) => <button
-//                     onClick={() => {tapeNumber(str,item.val)}}>{item.val}</button>)}
-//                 </div>
-//
-//             </div>
-//         </div>
-//     );
-// }
-//
  export default App;
